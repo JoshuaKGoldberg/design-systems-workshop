@@ -1,0 +1,174 @@
+.middleArea {
+	border-left: 1px solid var(--color-faint);
+	border-right: 1px solid var(--color-faint);
+	width: 600px;
+}
+
+.topHeading {
+	display: flex;
+	flex-direction: column;
+	padding: 0.5rem 1rem;
+}
+
+.topHeadingName {
+	font-size: var(--font-size-large);
+	line-height: var(--line-height-large);
+	font-weight: var(--font-weight-bold);
+}
+
+.topHeadingTweets {
+	color: var(--color-medium);
+	font-size: var(--font-size-medium);
+	line-height: var(--line-height-medium);
+}
+
+.bannerArea {
+	position: relative;
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.bannerImage {
+	height: 100%;
+	max-width: none;
+	position: absolute;
+}
+
+.profileImage {
+	border-radius: 100%;
+	border: 4px solid var(--color-background);
+	height: 10rem;
+	margin-left: 1rem;
+	margin-top: -6rem;
+	position: relative;
+	width: 10rem;
+}
+
+.profileContents {
+	border-bottom: 1px solid var(--color-faint);
+	padding: 0.5rem 1rem;
+}
+
+.profileInfo {
+	display: flex;
+	flex-direction: column;
+}
+
+.profileInfoName {
+	font-size: var(--font-size-large);
+	line-height: var(--line-height-large);
+	font-weight: var(--font-weight-bold);
+}
+
+.profileInfoUsername {
+	color: var(--color-medium);
+	font-size: var(--font-size-medium);
+	line-height: var(--line-height-medium);
+}
+
+.profileDescription {
+	font-size: var(--font-size-medium);
+	line-height: var(--line-height-medium);
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
+
+.anchor {
+	color: var(--color-logo);
+}
+
+.profileDetails {
+	color: var(--color-medium);
+	display: flex;
+	flex-wrap: wrap;
+	font-size: var(--font-size-medium);
+	line-height: var(--line-height-medium);
+}
+
+.profileDetail {
+	align-items: center;
+	display: flex;
+	margin-right: 1rem;
+}
+
+.profileDetailIcon {
+	height: 1.5rem;
+	margin-right: 0.25rem;
+	width: 1.5rem;
+}
+
+.profileStats {
+	display: flex;
+	font-size: var(--font-size-medium);
+	gap: 1rem;
+	line-height: var(--line-height-medium);
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.profileStatNumber {
+	font-weight: var(--font-weight-bold);
+}
+
+.profileStatValue {
+	color: var(--color-medium);
+}
+
+.profileFollowers {
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+}
+
+.profileFollowerImage {
+	border-radius: 100%;
+	border: 1px solid var(--color-background);
+	display: inline-block;
+	height: 1.5rem;
+	margin-right: -2rem;
+	width: 1.5rem;
+}
+
+.profileFollowersText {
+	margin-left: 3.5rem;
+	font-size: var(--font-size-small);
+	line-height: var(--line-height-small);
+	color: var(--color-medium);
+}
+
+.contentsLight {
+	color: var(--color-medium);
+}
+
+.contentsLink {
+	margin-bottom: 0.25rem;
+	margin-top: 0.25rem;
+}
+
+.linkContents {
+	font-size: var(--font-size-medium);
+	line-height: var(--line-height-medium);
+}
+
+.linkContentsArea {
+	align-items: center;
+	display: flex;
+	margin-bottom: 0.5rem;
+}
+
+.linkTweeterImage {
+	border-radius: 100%;
+	height: 1.5rem;
+	margin-right: 0.5rem;
+	width: 1.5rem;
+}
+
+.linkTweeterLink {
+	color: var(--color-medium);
+}
+
+.linkTweeter {
+	color: var(--color-foreground);
+	font-weight: var(--font-weight-bold);
+	margin-right: 0.25rem;
+}

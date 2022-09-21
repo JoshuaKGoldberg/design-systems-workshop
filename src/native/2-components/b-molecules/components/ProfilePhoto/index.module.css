@@ -1,0 +1,31 @@
+.profilePhoto {
+	border-radius: var(--border-radius-full);
+}
+
+.sizeTiny {
+	height: var(--circle-size-small);
+	width: var(--circle-size-small);
+}
+
+.sizeMedium {
+	width: var(--circle-size-medium);
+	height: var(--circle-size-medium);
+}
+
+.sizeLarge {
+	height: var(--circle-size-large);
+	width: var(--circle-size-large);
+}
+
+.bordered {
+	border-color: var(--color-background);
+	border-style: solid;
+}
+
+.bordered.sizeTiny {
+	border-width: 1px;
+}
+
+.bordered.sizeLarge {
+	border-width: 4px;
+}

@@ -1,0 +1,80 @@
+.leftNav {
+	position: relative;
+	width: 16rem;
+}
+
+.leftNavContents {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	position: fixed;
+	width: 16rem;
+}
+
+.twitterLogo {
+	height: var(--circle-size-medium);
+	margin-bottom: var(--spacing-medium);
+	margin-left: var(--spacing-small);
+	padding: var(--spacing-small);
+	width: var(--circle-size-medium);
+}
+
+.buttonsArea {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.button {
+	align-items: center;
+	border-radius: var(--border-radius-full);
+	display: flex;
+	margin-bottom: var(--spacing-medium);
+	margin-top: var(--spacing-small);
+	padding-left: var(--spacing-medium);
+	padding-right: var(--spacing-medium);
+}
+
+.buttonIcon {
+	margin-right: var(--spacing-medium);
+	height: 2rem;
+	width: 2rem;
+}
+
+.tweetButton {
+	background: var(--color-logo);
+	color: var(--color-background);
+	margin-right: 2rem;
+	margin-top: var(--spacing-large);
+	border-radius: var(--border-radius-full);
+	padding-top: var(--spacing-medium);
+	padding-bottom: var(--spacing-medium);
+	font-weight: var(--font-weight-bold);
+}
+
+.aboutMeArea {
+	display: flex;
+	height: 100%;
+	align-items: flex-end;
+}
+
+.aboutMeContents {
+	display: grid;
+	grid-template-columns: 64px 100%;
+	grid-template-rows: 24px 24px;
+	margin-bottom: var(--spacing-large);
+	margin-left: var(--spacing-medium);
+	margin-right: var(--spacing-medium);
+	margin-top: var(--spacing-large);
+}
+
+.aboutMeProfilePhoto {
+	border-radius: var(--border-radius-full);
+	width: var(--circle-size-medium);
+	height: var(--circle-size-medium);
+	grid-row: span 2 / span 2;
+}
+
+.aboutMeName {
+	font-weight: var(--font-weight-bold);
+}

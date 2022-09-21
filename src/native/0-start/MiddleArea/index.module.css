@@ -1,0 +1,174 @@
+.middleArea {
+	border-left: 1px solid #f1f5f9;
+	border-right: 1px solid #f1f5f9;
+	width: 600px;
+}
+
+.topHeading {
+	display: flex;
+	flex-direction: column;
+	padding: 0.5rem 1rem;
+}
+
+.topHeadingName {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	font-weight: bold;
+}
+
+.topHeadingTweets {
+	color: #64748b;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+
+.bannerArea {
+	position: relative;
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.bannerImage {
+	height: 100%;
+	max-width: none;
+	position: absolute;
+}
+
+.profileImage {
+	border-radius: 100%;
+	border: 4px solid #ffffff;
+	height: 10rem;
+	margin-left: 1rem;
+	margin-top: -6rem;
+	position: relative;
+	width: 10rem;
+}
+
+.profileContents {
+	border-bottom: 1px solid #f1f5f9;
+	padding: 0.5rem 1rem;
+}
+
+.profileInfo {
+	display: flex;
+	flex-direction: column;
+}
+
+.profileInfoName {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	font-weight: bold;
+}
+
+.profileInfoUsername {
+	color: #64748b;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+
+.profileDescription {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
+
+.anchor {
+	color: #1d9bf0;
+}
+
+.profileDetails {
+	color: #64748b;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+
+.profileDetail {
+	align-items: center;
+	display: flex;
+	margin-right: 1rem;
+}
+
+.profileDetailIcon {
+	height: 1.5rem;
+	margin-right: 0.25rem;
+	width: 1.5rem;
+}
+
+.profileStats {
+	display: flex;
+	font-size: 0.875rem;
+	gap: 1rem;
+	line-height: 1.25rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.profileStatNumber {
+	font-weight: bold;
+}
+
+.profileStatValue {
+	color: #64748b;
+}
+
+.profileFollowers {
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+}
+
+.profileFollowerImage {
+	border-radius: 100%;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	height: 1.5rem;
+	margin-right: -2rem;
+	width: 1.5rem;
+}
+
+.profileFollowersText {
+	margin-left: 3.5rem;
+	font-size: 0.75rem;
+	line-height: 1rem;
+	color: #64748b;
+}
+
+.contentsLight {
+	color: #64748b;
+}
+
+.contentsLink {
+	margin-bottom: 0.25rem;
+	margin-top: 0.25rem;
+}
+
+.linkContents {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+
+.linkContentsArea {
+	align-items: center;
+	display: flex;
+	margin-bottom: 0.5rem;
+}
+
+.linkTweeterImage {
+	border-radius: 100%;
+	height: 1.5rem;
+	margin-right: 0.5rem;
+	width: 1.5rem;
+}
+
+.linkTweeterLink {
+	color: #64748b;
+}
+
+.linkTweeter {
+	color: #000000;
+	font-weight: bold;
+	margin-right: 0.25rem;
+}

@@ -1,0 +1,49 @@
+.root {
+	background: var(--color-background);
+	color: var(--color-foreground);
+
+	--color-background: #ffffff;
+	--color-foreground: #000000;
+
+	--color-extraFaint: #f3f4f6;
+	--color-faint: #e5e7eb;
+	--color-medium: #64748b;
+	--color-emphasized: #1e293b;
+
+	--color-logo: #1d9bf0;
+
+	--font-size-small: 0.75rem;
+	--font-size-medium: 0.875rem;
+	--font-size-large: 1.125rem;
+	--font-size-extra-large: 1.25rem;
+
+	--font-weight-bold: bold;
+	--font-weight-extra-bold: 800;
+
+	--line-height-small: 1rem;
+	--line-height-medium: 1.25rem;
+	--line-height-large: 1.75rem;
+
+	--border-radius-medium: 0.75rem;
+	--border-radius-full: 9999px;
+
+	--circle-size-small: 1.5rem;
+	--circle-size-medium: 3rem;
+	--circle-size-large: 10rem;
+
+	--spacing-small: 0.5rem;
+	--spacing-medium: 1rem;
+	--spacing-large: 1.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+	.root {
+		--color-background: #000000;
+		--color-foreground: #ffffff;
+
+		--color-extraFaint: #1e293b;
+		--color-faint: #464b50;
+		--color-medium: #e5e7eb;
+		--color-emphasized: #f3f4f6;
+	}
+}

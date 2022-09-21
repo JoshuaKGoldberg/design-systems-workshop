@@ -1,0 +1,12 @@
+.suggestedContent {
+	background-color: var(--color-extraFaint);
+	border-radius: var(--border-radius-medium);
+	padding: 0.75rem var(--spacing-medium);
+}
+
+.heading {
+	font-size: var(--font-size-extra-large);
+	font-weight: var(--font-weight-extra-bold);
+	line-height: var(--line-height-large);
+	margin-bottom: var(--spacing-large);
+}

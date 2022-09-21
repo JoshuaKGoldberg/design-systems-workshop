@@ -1,0 +1,50 @@
+{
+	"author": "Josh Goldberg <npm@joshuakgoldberg.com>",
+	"dependencies": {
+		"@types/classnames": "^2.3.1",
+		"@types/react": "^18.0.20",
+		"classnames": "^2.3.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.4.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.19.1",
+		"@storybook/addon-actions": "^6.5.12",
+		"@storybook/addon-essentials": "^6.5.12",
+		"@storybook/addon-interactions": "^6.5.12",
+		"@storybook/addon-links": "^6.5.12",
+		"@storybook/builder-vite": "^0.2.2",
+		"@storybook/react": "^6.5.12",
+		"@storybook/testing-library": "^0.0.13",
+		"@vitejs/plugin-react": "^2.1.0",
+		"autoprefixer": "^10.4.11",
+		"babel-loader": "^8.2.5",
+		"eslint": "^8.23.1",
+		"eslint-plugin-react": "^7.31.8",
+		"eslint-plugin-simple-import-sort": "^8.0.0",
+		"eslint-plugin-storybook": "^0.6.4",
+		"eslint-plugin-tailwindcss": "^3.6.2",
+		"husky": "^8.0.1",
+		"lint-staged": "^13.0.3",
+		"postcss": "^8.4.16",
+		"prettier": "^2.7.1",
+		"tailwindcss": "^3.1.8",
+		"typescript": "^4.8.3",
+		"vite": "^3.1.0"
+	},
+	"lint-staged": {
+		"*": "prettier --ignore-unknown --write"
+	},
+	"name": "design-systems-workshop-twitter",
+	"scripts": {
+		"build-storybook": "build-storybook",
+		"build": "vite build",
+		"dev": "vite",
+		"prepare": "husky install",
+		"preview": "vite preview",
+		"storybook": "start-storybook -p 6006"
+	},
+	"type": "module",
+	"version": "0.1.0"
+}

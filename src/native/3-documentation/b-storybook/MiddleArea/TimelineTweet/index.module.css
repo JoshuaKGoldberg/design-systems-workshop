@@ -1,0 +1,15 @@
+.link {
+	padding-bottom: var(--spacing-medium);
+	padding-left: var(--spacing-medium);
+	padding-top: var(--spacing-medium);
+}
+
+.linkImage {
+	height: 100%;
+	margin-left: -3.5rem;
+	position: absolute;
+}
+
+.linkContentsWithImage {
+	margin-left: 8rem;
+}

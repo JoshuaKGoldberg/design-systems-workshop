@@ -1,0 +1,31 @@
+import { Meta, Story } from "@storybook/addon-docs";
+
+import josh from "../../../../images/josh.jpg";
+import { Tweet } from "../components";
+
+<Meta title="Tweet" component={Tweet} />
+
+<!-- 👇 We create a “template” of how args map to rendering -->
+
+export const Template = (args) => <Tweet {...args} />;
+
+<!-- 👇 Each story then reuses that template -->
+
+<Story
+	args={{
+		contents: "Hello, world!",
+		likes: 123,
+		link: {
+			content: "(link contents here)",
+			url: "/",
+		},
+		name: "A Tweet Has No Name",
+		photo: josh,
+		replies: 456,
+		retweets: 780,
+		username: "catvideosdaily",
+	}}
+	name="Story"
+>
+	{Template.bind({})}
+</Story>

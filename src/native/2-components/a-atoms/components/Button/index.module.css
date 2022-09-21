@@ -1,0 +1,22 @@
+.button {
+	border-radius: var(--border-radius-full);
+	color: var(--color-background);
+	font-weight: var(--font-weight-bold);
+}
+
+.colorPrimary {
+	background: var(--color-logo);
+}
+
+.colorSecondary {
+	background: var(--color-foreground);
+}
+
+.sizeMedium {
+	font-size: var(--font-size-medium);
+	padding: var(--spacing-small) var(--spacing-large);
+}
+
+.sizeLarge {
+	padding: var(--spacing-medium) var(--spacing-large);
+}

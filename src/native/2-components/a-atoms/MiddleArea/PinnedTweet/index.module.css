@@ -1,0 +1,83 @@
+.tweet {
+	padding-left: var(--spacing-medium);
+	padding-right: var(--spacing-medium);
+}
+
+.pinArea {
+	align-items: center;
+	color: var(--color-medium);
+	display: flex;
+	font-size: var(--font-size-small);
+	font-weight: var(--font-weight-bold);
+	line-height: var(--line-height-small);
+	padding-bottom: 0.25rem;
+	padding-top: var(--spacing-small);
+}
+
+.pinIcon {
+	margin-left: 3rem;
+	margin-right: 0.75rem;
+}
+
+.tweetContents {
+	display: flex;
+	font-size: var(--font-size-medium);
+	line-height: var(--line-height-medium);
+}
+
+.photo {
+	margin-right: 0.75rem;
+}
+
+.tweeter {
+	color: var(--color-medium);
+	margin-bottom: 0.25rem;
+}
+
+.tweeterName {
+	color: #000000;
+	font-weight: var(--font-weight-bold);
+	margin-right: var(--spacing-small);
+}
+
+.link {
+	margin-top: var(--spacing-medium);
+	overflow: hidden;
+	position: relative;
+}
+
+.linkImage {
+	height: 100%;
+	margin-left: -3.5rem;
+	position: absolute;
+}
+
+.linkContents {
+	background: var(--color-background);
+	display: flex;
+	flex-direction: column;
+	margin-left: 8rem;
+	padding-bottom: var(--spacing-medium);
+	padding-left: var(--spacing-medium);
+	padding-top: var(--spacing-medium);
+	position: relative;
+}
+
+.actionButtons {
+	display: flex;
+	justify-content: space-between;
+	color: var(--color-medium);
+}
+
+.actionButton {
+	align-items: center;
+	display: flex;
+	gap: 0.25rem;
+	padding-bottom: var(--spacing-small);
+	padding-top: var(--spacing-small);
+}
+
+.actionButtonIcon {
+	height: var(--spacing-medium);
+	width: var(--spacing-medium);
+}

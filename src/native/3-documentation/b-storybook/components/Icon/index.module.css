@@ -1,0 +1,14 @@
+.sizeTiny {
+	height: 1rem;
+	width: 1rem;
+}
+
+.sizeSmall {
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+.sizeMedium {
+	height: 2rem;
+	width: 2rem;
+}

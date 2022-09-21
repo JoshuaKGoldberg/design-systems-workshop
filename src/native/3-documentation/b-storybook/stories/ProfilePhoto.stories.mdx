@@ -1,0 +1,23 @@
+import { Meta, Story } from "@storybook/addon-docs";
+
+import josh from "../../../../images/josh.jpg";
+import { ProfilePhoto } from "../components";
+
+<Meta title="ProfilePhoto" component={ProfilePhoto} />
+
+<!-- 👇 We create a “template” of how args map to rendering -->
+
+export const Template = (args) => <ProfilePhoto {...args} />;
+
+<!-- 👇 Each story then reuses that template -->
+
+<Story
+	args={{
+		bordered: false,
+		size: "large",
+		src: josh,
+	}}
+	name="Story"
+>
+	{Template.bind({})}
+</Story>

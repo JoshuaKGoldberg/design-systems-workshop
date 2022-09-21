@@ -1,0 +1,21 @@
+.pinIcon {
+	margin-left: 3rem;
+	margin-right: 0.75rem;
+}
+
+.linkImage {
+	height: 100%;
+	margin-left: -3.5rem;
+	position: absolute;
+}
+
+.linkContents {
+	background: var(--color-background);
+	display: flex;
+	flex-direction: column;
+	margin-left: 8rem;
+	padding-bottom: var(--spacing-medium);
+	padding-left: var(--spacing-medium);
+	padding-top: var(--spacing-medium);
+	position: relative;
+}
