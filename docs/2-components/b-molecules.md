@@ -1,6 +1,8 @@
 # 2. Tokens > B. Molecules 🧬
 
-TODO EXPLAIN MOLECULES ;)
+Molecules are combinations of atoms.
+They're oftentimes still small, low-level components -- but they don't have to be.
+They can be larger.
 
 <details>
 <summary>Spoilers 🤐</summary>
