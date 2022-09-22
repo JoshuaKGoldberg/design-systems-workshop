@@ -2,27 +2,27 @@
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	padding-left: var(--spacing-large);
-	padding-top: var(--spacing-small);
+	padding-left: 1.5rem;
+	padding-top: 0.5rem;
 	position: relative;
 	width: 24rem;
 }
 
 .searchInput {
 	background: #f1f5f9;
-	border-radius: var(--border-radius-full);
+	border-radius: 9999px;
 	color: #1e293b;
-	padding: 0.75rem var(--spacing-large);
+	padding: 0.75rem 1.5rem;
 }
 
 .mediaGrid {
-	border-radius: var(--border-radius-medium);
+	border-radius: 0.75rem;
 	display: grid;
 	gap: 0.25rem;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	grid-template-rows: repeat(2, minmax(0, 1fr));
 	height: 12rem;
-	margin-top: var(--spacing-medium);
+	margin-top: 1rem;
 	overflow: hidden;
 }
 
@@ -35,29 +35,29 @@
 
 .youMightLike {
 	background-color: #f3f4f6;
-	border-radius: var(--border-radius-medium);
-	margin-top: var(--spacing-large);
-	padding: 0.75rem var(--spacing-medium);
+	border-radius: 0.75rem;
+	margin-top: 1.5rem;
+	padding: 0.75rem 1rem;
 }
 
 .youMightLikeHeading {
 	font-size: 1.25rem;
 	font-weight: 800;
 	line-height: 1.75rem;
-	margin-bottom: var(--spacing-large);
+	margin-bottom: 1.5rem;
 }
 
 .mightLikeItem {
-	margin-bottom: var(--spacing-large);
+	margin-bottom: 1.5rem;
 	display: flex;
 	align-items: center;
 }
 
 .mightLikeImage {
-	border-radius: var(--border-radius-full);
-	height: var(--circle-size-medium);
+	border-radius: 100%;
+	height: 3rem;
 	margin-right: 0.75rem;
-	width: var(--circle-size-medium);
+	width: 3rem;
 }
 
 .mightLikeInfo {
@@ -66,7 +66,7 @@
 }
 
 .mightLikeName {
-	margin-right: var(--spacing-small);
+	margin-right: 0.5rem;
 	font-weight: bold;
 }
 
@@ -76,32 +76,32 @@
 
 .mightLikeFollow {
 	background: #000000;
-	border-radius: var(--border-radius-full);
+	border-radius: 9999px;
 	color: #ffffff;
 	font-size: 0.875rem;
 	font-weight: bold;
 	line-height: 1.25rem;
-	padding: var(--spacing-small) var(--spacing-large);
+	padding: 0.5rem 1.5rem;
 }
 
 .whatsHappening {
 	background-color: #f3f4f6;
-	border-radius: var(--border-radius-medium);
+	border-radius: 0.75rem;
 	font-size: 0.875rem;
 	line-height: 1.25rem;
-	margin-top: var(--spacing-large);
-	padding: 0.75rem var(--spacing-medium);
+	margin-top: 1.5rem;
+	padding: 0.75rem 1rem;
 }
 
 .whatsHappeningHeading {
 	font-size: 1.25rem;
 	font-weight: 800;
 	line-height: 1.75rem;
-	margin-bottom: var(--spacing-large);
+	margin-bottom: 1.5rem;
 }
 
 .happeningItem {
-	margin-bottom: var(--spacing-large);
+	margin-bottom: 1.5rem;
 }
 
 .happeningItemFloater {
@@ -131,12 +131,12 @@
 	color: #64748b;
 	font-size: 0.875rem;
 	line-height: 1.25rem;
-	padding: var(--spacing-small);
+	padding: 0.5rem;
 }
 
 .extraLink {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0.25rem var(--spacing-small);
-	padding-bottom: var(--spacing-small);
+	gap: 0.25rem 0.5rem;
+	padding-bottom: 0.5rem;
 }

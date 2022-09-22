@@ -7,7 +7,7 @@
 .topHeading {
 	display: flex;
 	flex-direction: column;
-	padding: var(--spacing-small) var(--spacing-medium);
+	padding: 0.5rem 1rem;
 }
 
 .topHeadingName {
@@ -36,14 +36,18 @@
 }
 
 .profileImage {
-	margin-left: var(--spacing-medium);
+	border-radius: 100%;
+	border: 4px solid #ffffff;
+	height: 10rem;
+	margin-left: 1rem;
 	margin-top: -6rem;
 	position: relative;
+	width: 10rem;
 }
 
 .profileContents {
 	border-bottom: 1px solid #f1f5f9;
-	padding: var(--spacing-small) var(--spacing-medium);
+	padding: 0.5rem 1rem;
 }
 
 .profileInfo {
@@ -66,8 +70,8 @@
 .profileDescription {
 	font-size: 0.875rem;
 	line-height: 1.25rem;
-	padding-bottom: var(--spacing-small);
-	padding-top: var(--spacing-small);
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
 }
 
 .profileDetails {
@@ -81,22 +85,22 @@
 .profileDetail {
 	align-items: center;
 	display: flex;
-	margin-right: var(--spacing-medium);
+	margin-right: 1rem;
 }
 
 .profileDetailIcon {
-	height: var(--circle-size-small);
+	height: 1.5rem;
 	margin-right: 0.25rem;
-	width: var(--circle-size-small);
+	width: 1.5rem;
 }
 
 .profileStats {
 	display: flex;
 	font-size: 0.875rem;
-	gap: var(--spacing-medium);
+	gap: 1rem;
 	line-height: 1.25rem;
-	padding-bottom: var(--spacing-medium);
-	padding-top: var(--spacing-medium);
+	padding-bottom: 1rem;
+	padding-top: 1rem;
 }
 
 .profileStatNumber {
@@ -108,19 +112,23 @@
 }
 
 .profileFollowers {
-	padding-left: var(--spacing-medium);
-	padding-bottom: var(--spacing-medium);
+	padding-left: 1rem;
+	padding-bottom: 1rem;
 }
 
 .profileFollowerImage {
+	border-radius: 100%;
+	border: 1px solid #ffffff;
 	display: inline-block;
+	height: 1.5rem;
 	margin-right: -2rem;
+	width: 1.5rem;
 }
 
 .profileFollowersText {
 	margin-left: 3.5rem;
 	font-size: 0.75rem;
-	line-height: var(--spacing-medium);
+	line-height: 1rem;
 	color: #64748b;
 }
 
@@ -141,14 +149,14 @@
 .linkContentsArea {
 	align-items: center;
 	display: flex;
-	margin-bottom: var(--spacing-small);
+	margin-bottom: 0.5rem;
 }
 
 .linkTweeterImage {
-	border-radius: var(--border-radius-full);
-	height: var(--circle-size-small);
-	margin-right: var(--spacing-small);
-	width: var(--circle-size-small);
+	border-radius: 100%;
+	height: 1.5rem;
+	margin-right: 0.5rem;
+	width: 1.5rem;
 }
 
 .linkTweeterLink {

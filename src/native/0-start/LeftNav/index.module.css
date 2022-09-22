@@ -12,11 +12,11 @@
 }
 
 .twitterLogo {
-	height: var(--circle-size-medium);
-	margin-bottom: var(--spacing-medium);
-	margin-left: var(--spacing-small);
-	padding: var(--spacing-small);
-	width: var(--circle-size-medium);
+	height: 3rem;
+	margin-bottom: 1rem;
+	margin-left: 0.5rem;
+	padding: 0.5rem;
+	width: 3rem;
 }
 
 .buttonsArea {
@@ -27,23 +27,29 @@
 
 .button {
 	align-items: center;
-	border-radius: var(--border-radius-full);
+	border-radius: 9999px;
 	display: flex;
-	margin-bottom: var(--spacing-medium);
-	margin-top: var(--spacing-small);
-	padding-left: var(--spacing-medium);
-	padding-right: var(--spacing-medium);
+	margin-bottom: 1rem;
+	margin-top: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .buttonIcon {
-	margin-right: var(--spacing-medium);
+	margin-right: 1rem;
 	height: 2rem;
 	width: 2rem;
 }
 
 .tweetButton {
+	color: white;
+	background: #1d9bf0;
 	margin-right: 2rem;
-	margin-top: var(--spacing-large);
+	margin-top: 1.5rem;
+	border-radius: 9999px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-weight: bold;
 }
 
 .aboutMeArea {
@@ -56,16 +62,16 @@
 	display: grid;
 	grid-template-columns: 64px 100%;
 	grid-template-rows: 24px 24px;
-	margin-bottom: var(--spacing-large);
-	margin-left: var(--spacing-medium);
-	margin-right: var(--spacing-medium);
-	margin-top: var(--spacing-large);
+	margin-bottom: 1.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-top: 1.5rem;
 }
 
 .aboutMeProfilePhoto {
-	border-radius: var(--border-radius-full);
-	width: var(--circle-size-medium);
-	height: var(--circle-size-medium);
+	border-radius: 9999px;
+	width: 3rem;
+	height: 3rem;
 	grid-row: span 2 / span 2;
 }
 
