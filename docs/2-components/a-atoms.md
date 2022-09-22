@@ -21,14 +21,8 @@ How many repeated elements can you find?
 </details>
 
 - `ContentPreview`
-
-## Link
-
-TODO MENTION AS
-
-## Profile Photo
-
-TODO
+- `Link`
+- `ProfilePhoto`
 
 ## Button
 
