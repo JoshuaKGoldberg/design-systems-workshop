@@ -25,9 +25,5 @@ How many repeated elements can you find?
 - `Link`
 - `ProfilePhoto`
 - `Button`
-
-## Icon
-
-> TODO WARNING: Standardize icons: both location and format
-
-- Tip: don't have a mega-icon component
+- `Icon`
+  - Tip: don't have a mega-icon component
