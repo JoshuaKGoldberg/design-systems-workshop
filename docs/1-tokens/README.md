@@ -1,6 +1,7 @@
 # 1. Tokens
 
-TODO EXPLAIN TOKENS ;)
+Tokens are the core foundations of a design system.
+They're the fundamental building blocks that go into atoms: colors, spacing, typography, and so on.
 
 > ✋ It's common for designs to accidentally slightly diverge in these foundations.
 > Try to understand the _intent_ of the designs.
