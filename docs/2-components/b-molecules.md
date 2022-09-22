@@ -12,6 +12,6 @@ They can be larger.
 
 </details>
 
-## SuggestedContent
+- `SuggestedContent`
 
 ## Tweet
