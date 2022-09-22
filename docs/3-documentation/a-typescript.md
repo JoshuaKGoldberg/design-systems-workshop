@@ -28,15 +28,15 @@ npm i -g typescript
 tsc -w
 ```
 
-TODO jsx to tsx
+## Converting Components
+
+To convert a component, switch its extension from `.jsx` to `.tsx`.
 
 `ContentPreview`
 
-TODO dts for css
-
-TODO aka.ms/types
-
-TODO `type`, `React.AnchorHTMLAttributes`
+- To recognize `*.module.css` files, use a `declare module`
+- To recognize packages that don't ship with `.d.ts` files, install an `@types/*` package
+  - Tip: search on aka.ms/types
 
 `Link`
 
