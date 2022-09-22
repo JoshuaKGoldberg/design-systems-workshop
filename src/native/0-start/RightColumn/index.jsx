@@ -7,6 +7,7 @@ import whee from "../../../images/whee.jpeg";
 import whynotboth from "../../../images/whynotboth.jpeg";
 import yay from "../../../images/yay.jpeg";
 import yesssss from "../../../images/yesssss.jpeg";
+import { Button, ProfilePhoto } from "../components";
 import styles from "./index.module.css";
 
 export function RightColumn() {
@@ -41,12 +42,23 @@ export function RightColumn() {
 					["React India", "react_india", reactindia],
 				].map(([name, username, image]) => (
 					<div key={name} className={styles.mightLikeItem}>
-						<img alt="" className={styles.mightLikeImage} src={image} />
+						<ProfilePhoto
+							alt=""
+							className={styles.mightLikeImage}
+							size="medium"
+							src={image}
+						/>
 						<div className={styles.mightLikeInfo}>
 							<div className={styles.mightLikeName}>{name}</div>
 							<div className={styles.mightLikeUsername}>@{username}</div>
 						</div>
-						<button className={styles.mightLikeFollow}>Follow</button>
+						<Button
+							className={styles.mightLikeFollow}
+							color="secondary"
+							size="medium"
+						>
+							Follow
+						</Button>
 					</div>
 				))}
 			</div>

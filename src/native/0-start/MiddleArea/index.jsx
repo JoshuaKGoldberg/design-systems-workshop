@@ -1,5 +1,6 @@
 import josh from "../../../images/josh.jpg";
 import tseslint from "../../../images/tseslint.png";
+import { Link, ProfilePhoto } from "../components";
 import balloonIcon from "./balloonIcon.svg";
 import banner from "./banner.jpg";
 import calendarIcon from "./calendarIcon.svg";
@@ -23,9 +24,11 @@ export function MiddleArea() {
 					src={banner}
 				/>
 			</div>
-			<img
+			<ProfilePhoto
 				alt="Profile photo of Josh"
+				bordered
 				className={styles.profileImage}
+				size="large"
 				src={josh}
 			/>
 			<div className={styles.profileContents}>
@@ -35,34 +38,16 @@ export function MiddleArea() {
 				</div>
 				<div className={styles.profileDescription}>
 					Open source maintainer+consultant+speaker. ✍️{" "}
-					<a className={styles.anchor} href="/">
-						@LearningTSBook
-					</a>{" "}
-					buy my book! Do it! Buy! Now!
+					<Link href="/">@LearningTSBook</Link> buy my book! Do it! Buy! Now!
 					<br />
 					<br />
-					👨‍💻{" "}
-					<a className={styles.anchor} href="/">
-						@tseslint
-					</a>
+					👨‍💻 <Link href="/">@tseslint</Link>
 					<br />
-					🕰{" "}
-					<a className={styles.anchor} href="/">
-						@Codecademy
-					</a>{" "}
-					<a className={styles.anchor} href="/">
-						@microsoft
-					</a>{" "}
-					(
-					<a className={styles.anchor} href="/">
-						@sway
-					</a>
+					🕰 <Link href="/">@Codecademy</Link> <Link href="/">@microsoft</Link> (
+					<Link href="/">@sway</Link>
 					)
 					<br />
-					💍{" "}
-					<a className={styles.anchor} href="/">
-						@mariahcody55
-					</a>
+					💍 <Link href="/">@mariahcody55</Link>
 				</div>
 				<div className={styles.profileDetails}>
 					{[
@@ -70,9 +55,9 @@ export function MiddleArea() {
 						{
 							icon: linkIcon,
 							text: (
-								<a href="https://hi.joshuakgoldberg.com">
+								<Link href="https://hi.joshuakgoldberg.com">
 									hi.joshuakgoldberg.com
-								</a>
+								</Link>
 							),
 						},
 						{ icon: balloonIcon, text: "Born September 13" },
@@ -96,10 +81,12 @@ export function MiddleArea() {
 				</div>
 				<div className={styles.profileFollowers}>
 					{[josh, josh, josh].map((src, i) => (
-						<img
+						<ProfilePhoto
 							alt="Josh's profile photo"
+							bordered
 							key={`${src}-${i}`}
 							className={styles.profileFollowerImage}
+							size="small"
 							src={src}
 						/>
 					))}
@@ -113,12 +100,9 @@ export function MiddleArea() {
 					<>
 						I&apos;ve been a full time (ish) open source maintainer for half a
 						year now. Jotted down some thoughts here:{" "}
-						<a
-							className={styles.anchor}
-							href="https://blog.joshuakgoldberg.com/six-months-of-full-time-open-source"
-						>
+						<Link href="https://blog.joshuakgoldberg.com/six-months-of-full-time-open-source">
 							blog.joshuakgoldberg.com/six-months-of-...
-						</a>
+						</Link>
 						<br />
 						<br />
 						tl;dr: it&apos;s a ton of fun, and while not sustainable yet,
@@ -142,7 +126,7 @@ export function MiddleArea() {
 						</>
 					),
 					image:
-						"https://pbs.twimg.com/card_img/1570113216427925504/jnhmJKxy?format=jpg&name=360x360",
+						"https://pbs.twimg.com/card_img/1572864098089549824/JFZJgKWE?format=jpg&name=360x360",
 					url: "https://blog.joshuakgoldberg.com",
 				}}
 				likes={123}
@@ -158,9 +142,9 @@ export function MiddleArea() {
 					<>
 						You can tell I tweeted this because there are a bunch of emojis. But
 						also, really happy about this work &amp; article landing!{" "}
-						<a className={styles.anchor} href="https://typescript-eslint.io">
+						<Link href="https://typescript-eslint.io">
 							typescript-eslint.io
-						</a>{" "}
+						</Link>{" "}
 						is getting better by the month. 🚀
 					</>
 				}

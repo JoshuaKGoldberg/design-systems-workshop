@@ -42,14 +42,8 @@
 }
 
 .tweetButton {
-	background: #1d9bf0;
-	color: #ffffff;
 	margin-right: 2rem;
 	margin-top: var(--spacing-large);
-	border-radius: var(--border-radius-full);
-	padding-top: var(--spacing-medium);
-	padding-bottom: var(--spacing-medium);
-	font-weight: bold;
 }
 
 .aboutMeArea {

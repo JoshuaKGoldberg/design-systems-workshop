@@ -1,0 +1,15 @@
+.button {
+	border-radius: var(--border-radius-full);
+	color: var(--color-background);
+	font-weight: bold;
+	user-select: none;
+}
+
+.colorPrimary {
+	background: var(--color-logo);
+}
+
+.sizeLarge {
+	padding-top: var(--spacing-medium);
+	padding-bottom: var(--spacing-medium);
+}

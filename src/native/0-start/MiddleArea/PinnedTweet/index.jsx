@@ -1,3 +1,4 @@
+import { ContentPreview } from "../../components";
 import { LikesIcon } from "./icons/likesIcon.jsx";
 import { PinIcon } from "./icons/pinIcon.jsx";
 import RepliesIcon from "./icons/repliesIcon.jsx";
@@ -31,10 +32,10 @@ export function PinnedTweet({
 					</div>
 					{contents}
 					{link && (
-						<a className={styles.link} href={link.url}>
+						<ContentPreview className={styles.link} href={link.url}>
 							<img alt="" className={styles.linkImage} src={link.image} />
 							<div className={styles.linkContents}>{link.contents}</div>
-						</a>
+						</ContentPreview>
 					)}
 					<div className={styles.actionButtons}>
 						{[

@@ -36,13 +36,9 @@
 }
 
 .profileImage {
-	border-radius: var(--border-radius-full);
-	border: 4px solid #ffffff;
-	height: var(--circle-size-large);
 	margin-left: var(--spacing-medium);
 	margin-top: -6rem;
 	position: relative;
-	width: var(--circle-size-large);
 }
 
 .profileContents {
@@ -72,10 +68,6 @@
 	line-height: 1.25rem;
 	padding-bottom: var(--spacing-small);
 	padding-top: var(--spacing-small);
-}
-
-.anchor {
-	color: #1d9bf0;
 }
 
 .profileDetails {
@@ -121,12 +113,8 @@
 }
 
 .profileFollowerImage {
-	border-radius: var(--border-radius-full);
-	border: 1px solid #ffffff;
 	display: inline-block;
-	height: var(--circle-size-small);
 	margin-right: -2rem;
-	width: var(--circle-size-small);
 }
 
 .profileFollowersText {

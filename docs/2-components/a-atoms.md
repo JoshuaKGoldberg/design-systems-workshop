@@ -1,6 +1,7 @@
 # 2. Components > A. Atoms ⚛️
 
-TODO EXPLAIN ATOMS ;)
+Atoms are the core building block components.
+They're the smallest unit of component: they can't be broken down at all.
 
 Look at the Twitter example page.
 How many repeated elements can you find?

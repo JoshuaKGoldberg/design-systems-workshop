@@ -142,7 +142,7 @@ export function MiddleArea() {
 						</>
 					),
 					image:
-						"https://pbs.twimg.com/card_img/1570113216427925504/jnhmJKxy?format=jpg&name=360x360",
+						"https://pbs.twimg.com/card_img/1572864098089549824/JFZJgKWE?format=jpg&name=360x360",
 					url: "https://blog.joshuakgoldberg.com",
 				}}
 				likes={123}

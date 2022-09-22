@@ -1,5 +1,6 @@
 import cx from "classnames";
 
+import { ContentPreview } from "../../components";
 import { LikesIcon } from "./icons/likesIcon.jsx";
 import RepliesIcon from "./icons/repliesIcon.jsx";
 import { RetweetsIcon } from "./icons/retweetsIcon.jsx";
@@ -28,7 +29,7 @@ export function Tweet({
 					</div>
 					{contents}
 					{link && (
-						<a className={styles.link} href={link.href}>
+						<ContentPreview className={styles.link} href={link.href}>
 							{link.image && (
 								<img alt="" className={styles.linkImage} src={link.image} />
 							)}
@@ -40,7 +41,7 @@ export function Tweet({
 							>
 								{link.contents}
 							</div>
-						</a>
+						</ContentPreview>
 					)}
 					<div className={styles.actionButtons}>
 						{[

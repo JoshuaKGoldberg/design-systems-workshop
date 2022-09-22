@@ -1,4 +1,5 @@
 import josh from "../../../images/josh.jpg";
+import { Button } from "../components";
 import bookmarksIcon from "./bookmarksIcon.svg";
 import exploreIcon from "./exploreIcon.svg";
 import homeIcon from "./homeIcon.svg";
@@ -35,7 +36,9 @@ export function LeftNav() {
 						</button>
 					))}
 				</div>
-				<button className={styles.tweetButton}>Tweet</button>
+				<Button className={styles.tweetButton} color="primary" size="large">
+					Tweet
+				</Button>
 				<div className={styles.aboutMeArea}>
 					<div className={styles.aboutMeContents}>
 						<img alt="" className={styles.aboutMeProfilePhoto} src={josh} />
