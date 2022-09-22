@@ -12,11 +12,11 @@
 }
 
 .twitterLogo {
-	height: 3rem;
-	margin-bottom: 1rem;
-	margin-left: 0.5rem;
-	padding: 0.5rem;
-	width: 3rem;
+	height: var(--circle-size-medium);
+	margin-bottom: var(--spacing-medium);
+	margin-left: var(--spacing-small);
+	padding: var(--spacing-small);
+	width: var(--circle-size-medium);
 }
 
 .buttonsArea {
@@ -27,16 +27,16 @@
 
 .button {
 	align-items: center;
-	border-radius: 9999px;
+	border-radius: var(--border-radius-full);
 	display: flex;
-	margin-bottom: 1rem;
-	margin-top: 0.5rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	margin-bottom: var(--spacing-medium);
+	margin-top: var(--spacing-small);
+	padding-left: var(--spacing-medium);
+	padding-right: var(--spacing-medium);
 }
 
 .buttonIcon {
-	margin-right: 1rem;
+	margin-right: var(--spacing-medium);
 	height: 2rem;
 	width: 2rem;
 }
@@ -45,10 +45,10 @@
 	background: #1d9bf0;
 	color: #ffffff;
 	margin-right: 2rem;
-	margin-top: 1.5rem;
-	border-radius: 9999px;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	margin-top: var(--spacing-large);
+	border-radius: var(--border-radius-full);
+	padding-top: var(--spacing-medium);
+	padding-bottom: var(--spacing-medium);
 	font-weight: bold;
 }
 
@@ -62,16 +62,16 @@
 	display: grid;
 	grid-template-columns: 64px 100%;
 	grid-template-rows: 24px 24px;
-	margin-bottom: 1.5rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
-	margin-top: 1.5rem;
+	margin-bottom: var(--spacing-large);
+	margin-left: var(--spacing-medium);
+	margin-right: var(--spacing-medium);
+	margin-top: var(--spacing-large);
 }
 
 .aboutMeProfilePhoto {
-	border-radius: 9999px;
-	width: 3rem;
-	height: 3rem;
+	border-radius: var(--border-radius-full);
+	width: var(--circle-size-medium);
+	height: var(--circle-size-medium);
 	grid-row: span 2 / span 2;
 }
 

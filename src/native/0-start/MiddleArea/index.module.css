@@ -7,7 +7,7 @@
 .topHeading {
 	display: flex;
 	flex-direction: column;
-	padding: 0.5rem 1rem;
+	padding: var(--spacing-small) var(--spacing-medium);
 }
 
 .topHeadingName {
@@ -36,18 +36,18 @@
 }
 
 .profileImage {
-	border-radius: 100%;
+	border-radius: var(--border-radius-full);
 	border: 4px solid #ffffff;
-	height: 10rem;
-	margin-left: 1rem;
+	height: var(--circle-size-large);
+	margin-left: var(--spacing-medium);
 	margin-top: -6rem;
 	position: relative;
-	width: 10rem;
+	width: var(--circle-size-large);
 }
 
 .profileContents {
 	border-bottom: 1px solid #f1f5f9;
-	padding: 0.5rem 1rem;
+	padding: var(--spacing-small) var(--spacing-medium);
 }
 
 .profileInfo {
@@ -70,8 +70,8 @@
 .profileDescription {
 	font-size: 0.875rem;
 	line-height: 1.25rem;
-	padding-bottom: 0.5rem;
-	padding-top: 0.5rem;
+	padding-bottom: var(--spacing-small);
+	padding-top: var(--spacing-small);
 }
 
 .anchor {
@@ -89,22 +89,22 @@
 .profileDetail {
 	align-items: center;
 	display: flex;
-	margin-right: 1rem;
+	margin-right: var(--spacing-medium);
 }
 
 .profileDetailIcon {
-	height: 1.5rem;
+	height: var(--circle-size-small);
 	margin-right: 0.25rem;
-	width: 1.5rem;
+	width: var(--circle-size-small);
 }
 
 .profileStats {
 	display: flex;
 	font-size: 0.875rem;
-	gap: 1rem;
+	gap: var(--spacing-medium);
 	line-height: 1.25rem;
-	padding-bottom: 1rem;
-	padding-top: 1rem;
+	padding-bottom: var(--spacing-medium);
+	padding-top: var(--spacing-medium);
 }
 
 .profileStatNumber {
@@ -116,23 +116,23 @@
 }
 
 .profileFollowers {
-	padding-left: 1rem;
-	padding-bottom: 1rem;
+	padding-left: var(--spacing-medium);
+	padding-bottom: var(--spacing-medium);
 }
 
 .profileFollowerImage {
-	border-radius: 100%;
+	border-radius: var(--border-radius-full);
 	border: 1px solid #ffffff;
 	display: inline-block;
-	height: 1.5rem;
+	height: var(--circle-size-small);
 	margin-right: -2rem;
-	width: 1.5rem;
+	width: var(--circle-size-small);
 }
 
 .profileFollowersText {
 	margin-left: 3.5rem;
 	font-size: 0.75rem;
-	line-height: 1rem;
+	line-height: var(--spacing-medium);
 	color: #64748b;
 }
 
@@ -153,14 +153,14 @@
 .linkContentsArea {
 	align-items: center;
 	display: flex;
-	margin-bottom: 0.5rem;
+	margin-bottom: var(--spacing-small);
 }
 
 .linkTweeterImage {
-	border-radius: 100%;
-	height: 1.5rem;
-	margin-right: 0.5rem;
-	width: 1.5rem;
+	border-radius: var(--border-radius-full);
+	height: var(--circle-size-small);
+	margin-right: var(--spacing-small);
+	width: var(--circle-size-small);
 }
 
 .linkTweeterLink {

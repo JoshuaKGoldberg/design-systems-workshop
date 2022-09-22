@@ -1,6 +1,7 @@
 # 2. Components
 
-TODO EXPLAIN ATOMS
+Components are the building blocks that combine tokens into visuals.
+They can be as small & simple as text links or buttons, or as big as a full tweet or page layout.
 
 ## Steps
 

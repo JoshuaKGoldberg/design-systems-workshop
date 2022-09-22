@@ -1,6 +1,6 @@
 .tweet {
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-left: var(--spacing-medium);
+	padding-right: var(--spacing-medium);
 }
 
 .tweetContents {
@@ -10,10 +10,10 @@
 }
 
 .photo {
-	border-radius: 100%;
-	height: 3rem;
+	border-radius: var(--border-radius-full);
+	height: var(--circle-size-medium);
 	margin-right: 0.75rem;
-	width: 3rem;
+	width: var(--circle-size-medium);
 }
 
 .tweeter {
@@ -24,14 +24,14 @@
 .tweeterName {
 	color: #000000;
 	font-weight: bold;
-	margin-right: 0.5rem;
+	margin-right: var(--spacing-small);
 }
 
 .link {
-	border-radius: 0.75rem;
+	border-radius: var(--border-radius-medium);
 	border: 1px solid #e5e7eb;
 	display: block;
-	margin-top: 1rem;
+	margin-top: var(--spacing-medium);
 	overflow: hidden;
 	position: relative;
 }
@@ -46,9 +46,9 @@
 	background: #ffffff;
 	display: flex;
 	flex-direction: column;
-	padding-bottom: 1rem;
-	padding-left: 1rem;
-	padding-top: 1rem;
+	padding-bottom: var(--spacing-medium);
+	padding-left: var(--spacing-medium);
+	padding-top: var(--spacing-medium);
 	position: relative;
 }
 
@@ -66,11 +66,11 @@
 	align-items: center;
 	display: flex;
 	gap: 0.25rem;
-	padding-bottom: 0.5rem;
-	padding-top: 0.5rem;
+	padding-bottom: var(--spacing-small);
+	padding-top: var(--spacing-small);
 }
 
 .actionButtonIcon {
-	height: 1rem;
-	width: 1rem;
+	height: var(--spacing-medium);
+	width: var(--spacing-medium);
 }
