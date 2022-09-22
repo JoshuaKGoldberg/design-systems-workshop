@@ -1,11 +1,14 @@
 # 1. Tokens > B. Typography 🎹
 
-TODO EXPLAIN TYPOGRAPHY ;)
+Typography is the text of your app: the font sizes, weights, line heights, and so on.
+It's generally good to standardize this in as few variants as possible, as with colors.
 
-TODO MENTION DIFF BTW SEMANTIC AND VISUAL
+There's a difference between _semantic_ and _visual_ text content.
+You might see something as a "large heading" or "primary heading" that is actually an `<h4>` or `<h5>` on the page.
+Just because something is _visually_ large doesn't mean it's _semantically_.
 
 Look at the Twitter example page.
-How many unique colors can you find?
+How many unique text sizes can you find?
 
 <details>
 <summary>Spoilers 🤐</summary>
