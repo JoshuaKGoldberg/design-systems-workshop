@@ -1,8 +1,9 @@
 # 1. Tokens > C. Sizing 📏
 
-TODO SIZING ;)
+Sizing is the base margins, paddings, and common element sizes used in your app.
+These can be tricky -- sometimes a margin or padding isn't exactly aligned to the design system because of technical needs.
 
-TODO MENTION THIS ISN"T ALWAYS AS CUT AND DRY
+Try to keep an open mind here -- you don't always need to use an exact CSS variable if it's just an implementation quirk.
 
 Look at the Twitter example page.
 What are the element sizes, margins, paddings, and radiuses that are used consistently?
