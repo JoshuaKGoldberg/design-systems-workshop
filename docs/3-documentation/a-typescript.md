@@ -32,32 +32,8 @@ tsc -w
 
 To convert a component, switch its extension from `.jsx` to `.tsx`.
 
-`ContentPreview`
-
 - To recognize `*.module.css` files, use a `declare module`
 - To recognize packages that don't ship with `.d.ts` files, install an `@types/*` package
   - Tip: search on aka.ms/types
-
-`Link`
-
-`SuggestedContent`
-
-To define a custom object shape, use an `interface`.
-
-`React.ReactNode` is the type for any allowed React child: `string`, `null`, JSX elements, etc.
-
-`ProfilePhoto`
-
-TODO `ImgHTMLAttributes`
-
-TODO keyof typeof
-
-TODO Omit
-
-`Button`
-
-`Icon`
-
-TODO `React.SVGAttributes`
-
-`Tweet`
+- To define a custom object shape, use an `interface`.
+  - `React.ReactNode` is the type for any allowed React child: `string`, `null`, JSX elements, etc.
