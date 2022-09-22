@@ -1,4 +1,4 @@
-# 2. Tokens > A. Atoms ⚛️
+# 2. Components > A. Atoms ⚛️
 
 TODO EXPLAIN ATOMS ;)
 
@@ -11,6 +11,7 @@ How many repeated elements can you find?
 - Content preview
 - Link (anchor)
 - Profile photo
+  - Bordered: false, true
   - Size: Tiny, small, medium, large
 - Button
   - Background: Black, blue
@@ -23,10 +24,7 @@ How many repeated elements can you find?
 - `ContentPreview`
 - `Link`
 - `ProfilePhoto`
-
-## Button
-
-TODO
+- `Button`
 
 ## Icon
 
