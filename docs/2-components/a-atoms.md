@@ -20,9 +20,7 @@ How many repeated elements can you find?
 
 </details>
 
-## ContentPreview
-
-TODO
+- `ContentPreview`
 
 ## Link
 
