@@ -40,15 +40,11 @@ To convert a component, switch its extension from `.jsx` to `.tsx`.
 
 `Link`
 
-TODO HTMLAttributes
-
 `SuggestedContent`
 
-TODO interface
+To define a custom object shape, use an `interface`.
 
-TODO children
-
-TODO `React.ReactNode`
+`React.ReactNode` is the type for any allowed React child: `string`, `null`, JSX elements, etc.
 
 `ProfilePhoto`
 
